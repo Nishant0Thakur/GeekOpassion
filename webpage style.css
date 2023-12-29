@@ -1,0 +1,102 @@
+.logo img {
+    width: 100px;
+    height: 50px;
+    border: 3px solid red;
+  }
+  nav {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .right ul {
+    display: flex;
+    gap: 20px;
+  }
+  .lang{font-size:24px;
+    font-weight:bolder;
+    background-color:rgb(152, 246, 109);
+    border-radius: 9px;
+    padding:13px;
+    margin:16px;
+    cursor: pointer;
+  }
+  .sec {
+    margin: 36px;
+    padding: 9px;
+    gap: 19px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-shadow: 2px 3px 4px red;
+    text-shadow: 2px 3px 5px rgb(209, 192, 68);
+    box-sizing: border-box 3px;
+    background-color: bisque;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex{ 
+    text-shadow: 2px 2px 6px rgb(35, 35, 201);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    cursor:pointer;
+  }
+  .sec button{
+    border-radius: 4px ;
+    color: blueviolet;
+    border: 3px solid violet;
+    font-weight: 700;
+  }
+  .grid.lang{
+    font-size: 21px;
+    grid-template-columns: 100px;
+    grid-template-rows: 99px;
+    row-gap:1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color: rgb(245, 247, 100);
+  }
+  
+  .btn{
+  font-weight: 800;
+  border-radius: 5px;
+  }
+  .item{
+    justify-content:center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px;
+    animation-name: ntAnm;
+    animation-duration: 3s;
+  }
+  @keyframes ntAnm{
+    from{
+
+    }
+    to {
+      transform:rotateZ(360deg);
+    }
+  }
+  button.dn{
+    cursor:pointer;
+  }
+  button{
+    background-color: aqua;
+  }
